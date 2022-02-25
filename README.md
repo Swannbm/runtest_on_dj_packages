@@ -14,3 +14,9 @@ All what needs to be tested should be on the subfolder with underscores.
 To run test correctly, you can add it to this current Django project with a Symbolic link: `ln -s ~/django-app-parameter/django_app_parameter .`
 
 Then you need to setup correctling settings.py and all what is required to test it.
+
+## Test commands
+
+```
+pytest --cov=django_app_parameter --cov-report html
+```
