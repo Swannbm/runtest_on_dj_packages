@@ -4,6 +4,7 @@
 __pycache__/
 *.sqlite3
 .coverage
+media/*
 
 ### app to be tested but not included
 django_app_parameter
