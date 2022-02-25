@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # to test
     "django_app_parameter",
+    "django_docx_template",
 ]
 
 MIDDLEWARE = [
@@ -127,3 +128,14 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# DJANGO-DOCX-TEMPLATE
+
+DJANGO_DOCX_TEMPLATES = {
+    "upload_to": "",
+    "data_sources": [
+        "source1",
+        "source2",
+    ]
+}

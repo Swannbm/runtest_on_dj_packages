@@ -8,4 +8,4 @@ media/*
 
 ### app to be tested but not included
 django_app_parameter
-django-template-docx
+django_docx_template
