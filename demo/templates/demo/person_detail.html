@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1>Person profile</h1>
+        <h2>{{ object.first_name }} {{ object.last_name }}</h2>
+        <p>
+            Birth date: {{ object.birth_date|date:"Y m d" }}
+            <br/>Size: {{ object.size }} inches
+            <br/>Favorite color: {{ object.color.label }}
+        </p>
+        
+    </body>
+</html>
