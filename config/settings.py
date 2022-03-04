@@ -135,8 +135,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 DJANGO_DOCX_TEMPLATES = {
     "upload_to": "",
+    "docx_template_url": "templates/detail/<slug>",
     "data_sources": [
-        "source1",
-        "source2",
+        "demo.data_sources.PersonSource",
     ]
 }
